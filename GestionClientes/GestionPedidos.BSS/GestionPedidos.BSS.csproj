@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestionPedidos.DAL\GestionPedidos.DAL.csproj" />
+    <ProjectReference Include="..\GestionPedidos.Modelos\GestionPedidos.Modelos.csproj" />
+  </ItemGroup>
+
+</Project>
